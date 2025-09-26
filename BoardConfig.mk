@@ -5,6 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+include $(LOCAL_PATH)/mkboot/vendorboot.mk
+
 DEVICE_PATH := device/motorola/cancunf
 
 # For building with minimal manifest
