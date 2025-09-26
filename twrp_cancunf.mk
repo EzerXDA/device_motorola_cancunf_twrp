@@ -18,7 +18,7 @@ $(call inherit-product, device/motorola/cancunf/device.mk)
 PRODUCT_DEVICE := cancunf
 PRODUCT_NAME := twrp_cancunf
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g73 5G
+PRODUCT_MODEL := moto g54 5G
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
