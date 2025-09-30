@@ -1,6 +1,8 @@
-# TWRP de Teste para Moto G54 (cancunf)
+# TWRP Teste para Moto G54 (cancunf)
 
 Este projeto contém os arquivos necessários para compilar uma versão de teste do TWRP para o **Motorola Moto G54** (codinome **cancunf**).
+
+- Essa e apenas uma continuação para o projeto final
 
 > ⚠️ Requer Ubuntu 20.04 ou superior (ou Debian baseado)
 
