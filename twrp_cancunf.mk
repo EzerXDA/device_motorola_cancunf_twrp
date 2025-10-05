@@ -9,13 +9,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Configurações comuns do TWRP
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit do device cancunf
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 PRODUCT_DEVICE := cancunf
-PRODUCT_NAME := twrp_cancunf
+PRODUCT_NAME := omni_cancunf
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g54 5G
 PRODUCT_MANUFACTURER := motorola
