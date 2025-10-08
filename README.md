@@ -20,16 +20,15 @@ sudo apt update && sudo apt install -y \
   rsync schedtool squashfs-tools xsltproc zip zlib1g-dev openjdk-8-jdk \
   python-is-python3 repo
 
-# Criar a pasta de trabalho
+crie a sua pasta
 mkdir -p ~/twrp-cancunf && cd ~/twrp-cancunf
 
-# Inicializar o repo
+inicie o repo na sua pasta
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
 
 # Sincronizar
 repo sync -j$(nproc) --force-sync
 
-# Exportar codinome do dispositivo
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch twrp_cancunf-eng
+lunch omni_cancunf-eng
 mka b -j$
